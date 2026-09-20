@@ -1,4 +1,4 @@
-import type { ProductFormState, ProductFormErrors } from "./types/types";
+import type { ProductFormState, ProductFormErrors } from "./types";
 
 // Pure function: returns a fresh errors object, never mutates its input.
 export function validateProductForm(form: ProductFormState): ProductFormErrors {
